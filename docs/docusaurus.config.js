@@ -6,22 +6,21 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const organizationName = 'gabInteli'; // Usually your GitHub org/user name.
+const projectName = 'M8-Inteli-Eng-Comp_Gabriela_Matias'; // Usually your repo name.
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Desenvolvimento Individual',
   tagline: 'Módulo 8 - Engenharia da Computação',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/M8-Inteli-Eng-Comp_Gabriela_Matias',
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'gabInteli', // Usually your GitHub org/user name.
+  projectName: 'M8-Inteli-Eng-Comp_Gabriela_Matias', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
