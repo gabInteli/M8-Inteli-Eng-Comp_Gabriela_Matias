@@ -1,4 +1,4 @@
-# Repositório Individual - Gabriels Rodrigues Matias 
+# Repositório Individual - Gabriela Rodrigues Matias 
 ## Módulo 8 - Engenharia da Computação 
 
 Toda documentação foi desenvolvida por meio do Docusaurus, que pode ser acessado no seguinte link:
