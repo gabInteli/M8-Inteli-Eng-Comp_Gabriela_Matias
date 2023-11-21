@@ -1,0 +1,21 @@
+[0.606s] Invoking command in '/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3': PYTHONPATH=/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/prefix_override:/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/chatbot build --build-base /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/build install --record /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/install.log --single-version-externally-managed
+[0.782s] running egg_info
+[0.782s] writing build/chatbot/chatbot.egg-info/PKG-INFO
+[0.783s] writing dependency_links to build/chatbot/chatbot.egg-info/dependency_links.txt
+[0.783s] writing entry points to build/chatbot/chatbot.egg-info/entry_points.txt
+[0.783s] writing requirements to build/chatbot/chatbot.egg-info/requires.txt
+[0.783s] writing top-level names to build/chatbot/chatbot.egg-info/top_level.txt
+[0.784s] reading manifest file 'build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.785s] writing manifest file 'build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.785s] running build
+[0.785s] running build_py
+[0.785s] running install
+[0.785s] running install_lib
+[0.787s] running install_data
+[0.787s] running install_egg_info
+[0.788s] removing '/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.788s] Copying build/chatbot/chatbot.egg-info to /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+[0.789s] running install_scripts
+[0.803s] Installing controller script to /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/install/chatbot/lib/chatbot
+[0.803s] writing list of installed files to '/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/install.log'
+[0.830s] Invoked command in '/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3' returned '0': PYTHONPATH=/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/prefix_override:/home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/chatbot build --build-base /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/build install --record /home/gabriela/Documents/GitHub/M8-Inteli-Eng-Comp_Gabriela_Matias/src/ponderada3/build/chatbot/install.log --single-version-externally-managed

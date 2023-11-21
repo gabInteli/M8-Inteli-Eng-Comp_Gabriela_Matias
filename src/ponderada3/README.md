@@ -1,3 +1,3 @@
-## Ponderada 2 - Gabriela Rodrigues Matias 
+## Ponderada 3 - Gabriela Rodrigues Matias 
 
 O conteúdo da documentação e demonstração da ponderada pode ser acessado por meio [desse link](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/category/ponderada-3)
