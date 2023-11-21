@@ -1,55 +1,17 @@
-# Mapeamento e Navegação com Ros2 e Nav2 - Launch Files
+---
+sidebar_position: 1
+---
 
-## Sistema de launch files para mapeamento e navegação
-O objetivo dessa atividade ponderada é criar e executar um sistema de mapeamento e de navegação no framework ros2 utilizando o sistema de simulação Gazebo.
+# Resolução
 
-###  Modo de Execução 
+## 1. Requisito Funcional:
+O robô de serviço deve ser capaz de receber solicitações, com base na demanda do usuário, sobre a requisição de uma peça ou ferramenta, de forma geral, um elemento que pode ser obtido no almoxarifado. E com base nessa solicitação deve saber orientar o usuário sobre o local para obter esse elemento.
 
-Caso o pacote seja baixado diretamente do repositório, ela já estará buildado e pronto para execução, **para evitar erros, recomendamos adicionar o source do pacote ao seu interpretador de terminal preferido**(**.bashrc**, **.zshrc**, etc.). 
+## 2. Requisito não Funcional:
+O chatbot deve ser capaz de compreender e responder às solicitações dos usuários no contexto do almoxarifado da Ambev de forma eficiente, considerando a métrica de eficiência composta por precisão e rapidez.
 
-Caso opte por não realizar isso, você terá que digitar o seguinte source em seu terminal dentro da pasta do pacote na hora de executar:
-```
-source install/local_setup.bash #Caso você tenha zsh, troque o bash por .zsh
-```
+### 2.1. Precisão:
+O chatbot deve fornecer respostas precisas que atendam às solicitações dos usuários no contexto do almoxarifado. A precisão será medida pela proporção de respostas corretas em relação ao número total de solicitações de usuários.
 
-Após isso, o pacote estará pronto para uso! 
-Com ele, você terá acesso a três nós e a três launch files:
-
-- **Nós**
-  - **initial_pose** - Seta a posição inicial do robô.
-  - **go_to** - Vai até pontos definidos no RVIz. 
-
-**Para iniciar os nós, é necessário utilizar o seguinte comando:**
-```
-ros2 run my_package <nome_do_nó>
-```
-
-- **Launch Files**
-  - **mapping.launch.py** - Inicia o mapeamento utilizando o mapa base do gazebo.
-  - **mapping-save.launch.py** - Salva o mapa que foi mapeado e apresentado no RVIz para a pasta atual(do terminal).
-  - **navigation.launch.py** - Inicia a navegação no mapa criado a partir do mapeamento no RVIz com pontos já pré-definidos.
- 
-**Para iniciar os launch files, é necessário utilizar o seguinte comando:**
-```
-ros2 launch my_package <nome_do_launch_file>
-```
-
-(Importante ressaltar que nenhum dos comandos citados vão funcionar caso você não tenha iniciado o pacote com o comando de source)
-
-
-### Demonstração: 
-
-Para poder executar os pacotes corretamente, basta seguir a ordem: 
-1. Mapeamento: 
-    - [Repositório](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada1/launch)
-    - Arquivo: "mapping.launch.py"
-2. Salvamento:
-    - [Repositório](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada1/launch)
-    - Arquivo: "mapping-save.launch.py"
-3. Navegação: 
-    - [Repositório](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada1/launch)
-    - Arquivo: "navigation.launch.py"
-
-A demonstração pode ser verificada no vídeo abaixo:  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cLMVFRKlTdw?si=0Cqt396I1O_f_6Kp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+### 2.2. Rapidez:
+O chatbot deve responder às solicitações dos usuários de forma rápida, minimizando o tempo de resposta. A rapidez será medida pelo tempo médio de resposta do chatbot a partir do momento em que a solicitação é recebida até o momento em que a resposta é fornecida ao usuário.
