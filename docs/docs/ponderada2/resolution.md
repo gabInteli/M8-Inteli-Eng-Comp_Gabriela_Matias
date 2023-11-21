@@ -1,7 +1,15 @@
+---
+sidebar_position: 2
+---
+
 # Mapeamento e Navegação com Ros2 e Nav2 - Launch Files
 
 ## Sistema de launch files para mapeamento e navegação
 O objetivo dessa atividade ponderada é criar e executar um sistema de mapeamento e de navegação no framework ros2 utilizando o sistema de simulação Gazebo.
+
+### Repositório de Resolução do Projeto
+
+[✔] [Ponderada 2](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada2)
 
 ###  Modo de Execução 
 

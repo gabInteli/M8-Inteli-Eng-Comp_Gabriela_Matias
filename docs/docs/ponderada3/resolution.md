@@ -2,20 +2,41 @@
 sidebar_position: 3
 ---
 
-# Resolução
+# Navegação por Meio de Chatbot Simples
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+## Sistema de launch files para navegação com interação via terminal 
+O objetivo desse repositório demonstrar o desenvolvimento e a execução de um chatbot utilizando expressões regulares para se movimentar até pontos específicos. 
 
-Docusaurus has **much more to offer**!
+### Repositório de Resolução do Projeto
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+[✔] [Ponderada 3](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada3)
 
-## What's next?
+###  Modo de Execução 
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+Caso o pacote seja baixado diretamente do repositório, ela já estará buildado e pronto para execução, **para evitar erros, recomendamos adicionar o source do pacote ao seu interpretador de terminal preferido**(**.bashrc**, **.zshrc**, etc.). 
+
+Caso opte por não realizar isso, você terá que digitar o seguinte source em seu terminal dentro da pasta do pacote na hora de executar:
+```
+source install/local_setup.bash #Caso você tenha zsh, troque o bash por .zsh
+```
+
+Após isso, é necessário inicialmente acionar o pacote de execução da navegação no mapa definido. 
+Já explicado anteriormente na [Ponderada 2](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada2/resolution). 
+
+
+### Demonstração: 
+
+Para poder executar os pacotes corretamente, basta seguir a ordem: 
+1. Navegação: 
+    - [Repositório](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada2/launch)
+    - Arquivo: "navigation.launch.py"
+2. Entrada de Pontos:
+    - [Repositório](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada3/chatbot)
+    - Dir: '/chatbot'
+    - Execução: 
+    ```
+    ros2 run chatbot controller
+    ```
+
+A demonstração pode ser verificada no vídeo abaixo:  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wWz3obQjfUM?si=2cKyr9Lhowud7-lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
