@@ -61,7 +61,7 @@ python3 perceptron.py
 
 ### Demonstração: 
 A demonstração pode ser verificada no vídeo abaixo:  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1wuUclnifS8?si=6jf9sG6-DUH_xmHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pGI2T6ImqJo?si=q9XMoqwusKyraCSP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Análise e Conclusão:
 A estrutura do nosso perceptron é definida por meio de 3 funções principais e alguns parâmetros relevantes que são definidos no nosso método principal: 
