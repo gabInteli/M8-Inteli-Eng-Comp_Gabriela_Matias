@@ -11,14 +11,14 @@ Utilizando um LLM (local ou API externa), criar um chatbot simples com instruç�
 
 ### Repositório de Resolução do Projeto
 
-[✔] [Ponderada 4](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada4)
+[✔] [Ponderada 5](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada5)
 
 
 ###  Modo de Execução 
 
 #### 1. Criação de arquivos e pastas: 
 
-Inicialmente basta clonar o repositório contendo o Modelfile e o Chat de interação com a interface: 
+Inicialmente basta clonar o repositório contendo o Chat de interação com a interface: 
 
 ```
 git clone https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias.git
