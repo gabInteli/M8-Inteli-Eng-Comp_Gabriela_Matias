@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Criar uma interface com LLM que atue como alguem responsável pela área de segurança no ambiente da engenharia."
+    "description": "Criar uma interface com LLM que atue como alguem responsável pela área de segurança no ambiente da engenharia, utilizando algum documento de referência."
   }
 }
