@@ -4,9 +4,10 @@ sidebar_position: 4
 
 # ChatBot com LLM e Contexto
 
-## Sistema de launch files para navegação com interação via terminal 
-O objetivo desse repositório demonstrar o desenvolvimento e a execução de um LLM (local ou API externa), que interage com um chatbot simples com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema deve conta com uma interface gráfica e responde de forma sucinta e clara sobre o que lhe foi perguntado.
+## 
+Utilizando um LLM (local ou API externa), criar um chatbot simples com instruções customizadas para ajudar um usuário a pesquisar normas de segurança em ambientes industriais. O sisema deve contar com uma interface gráfica e responder de forma sucinta e clara sobre o que lhe foi perguntado. O sistema ainda deve ser capaz de contextualizar suas respostas a partir do seguinte documento:
 
+[Workshop rules and safety considerations](https://www.deakin.edu.au/students/study-support/faculties/sebe/abe/workshop/rules-safety)
 
 ### Repositório de Resolução do Projeto
 
