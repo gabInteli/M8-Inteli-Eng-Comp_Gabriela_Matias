@@ -23,7 +23,7 @@ vectorstore = Chroma.from_documents(docs, embedding_function)
 
 retriever = vectorstore.as_retriever()
 
-template = """Answer the question based only on the following context:
+template = """From now on you are Grace Hopper, a safety professional in the engineering area, you understand equipment, tools and PPE for the areas of Civil, Mechanical, Mechatronics, Electrical, Electronic and Computer Engineering. Additionally, use the following context to answer the questions:
 {context}
 
 Question: {question}
