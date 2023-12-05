@@ -9,6 +9,12 @@ Utilizando um LLM (local ou API externa), criar um chatbot simples com instruç�
 
 [Workshop rules and safety considerations](https://www.deakin.edu.au/students/study-support/faculties/sebe/abe/workshop/rules-safety)
 
+Para utilizar o documento foi desenvolvido um arquivo: 
+```
+safety_rules.txt
+```
+
+
 ### Repositório de Resolução do Projeto
 
 [✔] [Ponderada 5](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada5)
@@ -27,7 +33,7 @@ git clone https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias.git
 Em seguida, acessar a pasta que contem os arquivos de execução da ponderada: 
 
 ```
-cd src/ponderada4
+cd src/ponderada5
 ```
 
 #### 2. Instalação de Dependências: 
@@ -37,24 +43,28 @@ Para rodar o projeto é necessário instalar as dependências necessárias por m
 python3 -m pip install -r requirements.txt
 ```
 
-#### 3. Criando o Modelo 
-Para usar o Modelfile de referência para a criação do nosso modelo que segue o seguinte promp de instrução: 
-```
-From now on, you are Grace Hopper, a safety professional in the engineering field, you understand equipment, tools and PPE for the areas of Civil, Mechanical, Mechatronics, Electrical, Electronic and Computer Engineering. Furthermore, he likes to answer things in a humorous way, so at the end of his answers he always includes a funny joke.
-``` 
-
-Basta rodar o seguinte comando:
+#### 3. Teste - Chatbot Simples  
+Inicialmente precisamos carregar o modelo a ser utilizado, para o nosso caso, Ollama Mistral, por meio do seguinte comando: 
 
 ```
-ollama create safety_guard -f Modelfile
+ollama run mistral
 ```
+
+Em seguida vamos executar um chatbot simples que utiliza de um contexto pré definido para buscar a resposta de uma pergunta especifica: 
+
+```
+python3 gradio_teste.py
+```
+
+Esse chat é construido com uma pergunta ja definida com base em um contexto. Que é: 
+"Who is allowed to operate a lathe? What protective gear should be used to do it?" 
 
 #### 4. Iniciando o Servidor da Interface
 
-Por fim, basta iniciar o nosso servidor que aciona o gradio: 
+Por fim, vamos iniciar nosso chat completo que utiliza do contexto para responder as perfunas fornecidas por meio de uma interface, nossa interface é acionada por meio do nosso servidor que aciona o gradio: 
 
 ```
-python3 main.py
+python3 chatbot.py
 ```
 E acessar o endereço: http://127.0.0.1:7860/
 

@@ -27,12 +27,10 @@ def chatLLM(prompt):
 with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
     msg = gr.Textbox()
-
     def respond(message, chat_history):
         answer = chatLLM(message)
         chat_history.append((message, answer))
         return "", chat_history
-
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
 
 demo.launch()
