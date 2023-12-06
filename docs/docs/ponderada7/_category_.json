@@ -1,0 +1,8 @@
+{
+  "label": "Ponderada 7",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Desenvolvimento de uma rede neural convolucional dedicada à classificação de números com base no conjunto de dados MNIST."
+  }
+}
