@@ -1,0 +1,8 @@
+{
+  "label": "Ponderada 8",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Criação de uma aplicação que integra um tradutor de texto (pode ser baseado em LLM ou não), uma aplicação de speech-to-text e uma aplicação de text-to-speech."
+  }
+}

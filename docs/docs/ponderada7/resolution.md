@@ -4,14 +4,16 @@ sidebar_position: 4
 
 # Rede Neural Convolucional
 
-Os perceptrons são um conceito fundamental no campo da inteligência artificial, representando um dos primeiros modelos de neurônios artificiais. Desenvolvidos por Frank Rosenblatt nas décadas de 1950 e 1960, os perceptrons foram inspirados nos trabalhos anteriores de Warren McCulloch e Walter Pitts. Eles servem como a base para a compreensão de estruturas mais complexas em redes neurais modernas.
+Uma Rede Neural Convolucional (CNN), também conhecida como ConvNet, é um tipo de modelo de aprendizado profundo projetado especialmente para processar dados em grade, como imagens. Essa arquitetura é amplamente utilizada em tarefas de visão computacional, como reconhecimento de imagem e classificação.
+
+A estrutura fundamental de uma CNN consiste em camadas de convolução, camadas de pooling e camadas totalmente conectadas. 
 
 ### Objetivo da Entrega: 
 Nesta ponderada, desenvolvemos uma rede neural convolucional dedicada à classificação de números com base no conjunto de dados MNIST.
 
 ### Repositório de Resolução do Projeto
 
-[✔] [Ponderada 6](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada6)
+[✔] [Ponderada 7](https://github.com/gabInteli/M8-Inteli-Eng-Comp_Gabriela_Matias/tree/main/src/ponderada7)
 [✔] [Colab de Desenvolvimento](https://colab.research.google.com/drive/1nVEpS7OEp57fYOMd0OEcgT7SDMr2mtk3?usp=sharing)
 
 
