@@ -58,4 +58,4 @@ Ao final da gravação são gerados dois arquivos na pasta principal do projeto:
 
 ### Demonstração: 
 A demonstração pode ser verificada no vídeo abaixo:  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-nO_kh_DhNs?si=VKjfvHSlwi1ECGHW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_VuiBnVMTho?si=5_-m0qxaE2eaWZtO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
