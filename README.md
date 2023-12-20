@@ -13,6 +13,8 @@ Para acessar as Ponderadas Individualmente, utilize os links abaixo:
 4. [Ponderada 4](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada4/resolution)
 5. [Ponderada 5](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada5/resolution)
 6. [Ponderada 6](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada6/resolution)
+7. [Ponderada 7](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada7/resolution)
+8. [Ponderada 8](https://gabinteli.github.io/M8-Inteli-Eng-Comp_Gabriela_Matias/docs/ponderada8/resolution)
 
 ### Executando a Documentação
 
